@@ -1,0 +1,11 @@
+<!DOCTYPE suite>
+
+<suite name="NewWindowTest" verbose="1">
+
+    <test name="NewWindowTest">
+        <classes>
+            <class name="com.herokuapp.theinternet.windowstests.NewWindowsTest"/>
+        </classes>
+    </test>
+
+</suite>

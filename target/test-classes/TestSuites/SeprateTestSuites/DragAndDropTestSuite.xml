@@ -1,0 +1,17 @@
+<!DOCTYPE suite>
+<suite name="DragAndDropTestSuite" verbose="1">
+
+    <test name="DragAndDropLeftToRightTest-CH">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.herokuapp.theinternet.draganddroptests.DragAndDropTests" />
+        </classes>
+    </test>
+
+    <test name="DragAndDropLeftToRightTest-FF">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.herokuapp.theinternet.draganddroptests.DragAndDropTests" />
+        </classes>
+    </test>
+</suite>

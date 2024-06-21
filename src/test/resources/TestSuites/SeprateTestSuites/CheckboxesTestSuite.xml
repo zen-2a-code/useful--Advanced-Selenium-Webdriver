@@ -1,0 +1,10 @@
+<!DOCTYPE suite>
+
+<suite name="CheckboxesTestSuite" verbose = "1">
+
+    <test name="CheckboxesTests">
+        <classes>
+            <class name = "com.herokuapp.theinternet.checkboxespagetest.CheckboxesTests"></class>
+        </classes>
+    </test>
+</suite>
