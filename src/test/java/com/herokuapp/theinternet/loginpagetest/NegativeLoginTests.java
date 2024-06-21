@@ -11,7 +11,7 @@ public class NegativeLoginTests extends TestUtilities {
 
     @Parameters({"username", "password", "expectedMessage"})
     @Test(priority = 1)
-    public void negativeTest(String username, String password, String expectedErrorMessage) {
+    public void negativeLoginTest(String username, String password, String expectedErrorMessage) {
         log.info("Starting negativeTest");
 
         // open main page
